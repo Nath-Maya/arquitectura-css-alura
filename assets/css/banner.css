@@ -4,7 +4,6 @@
 
 .banner__imagen {
    width: 100%;
-   height: calc(100vh - 72px);
 }
 
 .banner__titulo {
@@ -25,3 +24,22 @@
    width: 100%;
 }
 
+@media screen and (min-width:0) {
+   .banner__titulo {
+      font-size: 3rem;
+   }
+
+   .banner__imagen {
+      height: calc(100vh - 51px);
+   }
+}
+
+@media screen and (min-width:768px) {
+   .banner__titulo {
+      font-size: 5.0625rem;
+   }
+
+   .banner__imagen {
+      height: calc(100vh - 72px);
+   }
+}
