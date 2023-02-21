@@ -64,8 +64,9 @@
 }
 
 .persona__imagen--roberta {
-    background-image: url(../img/personas/roberta.jpg);   
+   background-image: url(../img/personas/roberta.jpg);
 }
+
 .persona__imagen--marcela {
-    background-image: url(../img/personas/marcela.jpg);
-}
+   background-image: url(../img/personas/marcela.jpg);
+}  
