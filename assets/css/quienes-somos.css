@@ -81,12 +81,24 @@
    .persona {
       margin-bottom: 2rem;
    }
+
+   .persona__imagen {
+      width: 250px;
+      height: 250px;
+   }
+
 }
 
 @media screen and (min-width: 768px) {
    .personas {
       flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
       margin-bottom: 0;
+   }
+
+   .persona__imagen {
+      margin: 1rem;
    }
 }
 
