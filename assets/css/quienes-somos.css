@@ -70,3 +70,26 @@
 .persona__imagen--marcela {
    background-image: url(../img/personas/marcela.jpg);
 }  
+
+/* ?RESPONSIVE */
+
+@media screen and (min-width:0) {
+   .personas {
+      flex-direction: column;
+   }
+
+   .persona {
+      margin-bottom: 2rem;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .personas {
+      flex-direction: row;
+      margin-bottom: 0;
+   }
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
