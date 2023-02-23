@@ -41,6 +41,6 @@
    }
 
    .banner__imagen {
-      height: calc(100vh - 72px);
+      height: calc(70vh - 72px);
    }
 }

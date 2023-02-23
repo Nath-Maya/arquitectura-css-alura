@@ -55,7 +55,8 @@
 .receta__boton:hover {
    cursor: pointer;
    background: #9F1010;
-
+   scale: 1.1;
+   box-shadow: 2px 3px 10px 5px pink;
 }
 
 @media screen and (min-width:0) {
@@ -79,7 +80,11 @@
 
 @media screen and (min-width: 992px) {
    .receta {
-      margin: 1rem;
+      margin: 2.5rem 1rem;
       width: calc(25% - 1rem);
+   }
+
+   .recetas {
+      justify-content: space-around;
    }
 }
